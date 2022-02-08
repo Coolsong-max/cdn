@@ -8,16 +8,16 @@ html {
 
 @font-face {
 	font-family: "Song-jp";
-	src: url('../font/Song-jp.otf');
+	src: url('https://cdn.jsdelivr.net/gh/Coolsong-max/cdn@master/font/Song-jp.otf');
 	font-family: "Song-cns";
-	src: url('../font/Song-cns.otf');
+	src: url('https://cdn.jsdelivr.net/gh/Coolsong-max/cdn@master/font/Song-cns.otf');
 
 }
 
 body {
 	position: relative;
 	min-height: 100%;
-	background-image: url(../img/bg.jpg);
+	background-image: url(https://cdn.jsdelivr.net/gh/Coolsong-max/cdn@master/img/home_page/bg.jpg);
 	background-color: #1E2E5D;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -26,7 +26,7 @@ body {
 	font-family: "Song-jp","Song-cns", Lato, Helvetica Neue For Number, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Hiragino Sans GB, "Microsoft JhengHei", "MicrMicrosoft YaHei", Helvetica Neue, Helvetica, Arial, sans-serif;
 	line-height: 2;
 	margin: 0;
-	cursor: url(../cursor/norm.cur), auto
+	cursor: url(https://cdn.jsdelivr.net/gh/Coolsong-max/cdn@master/cursor/norm.cur), auto
 }
 
 h1,
@@ -55,13 +55,13 @@ hr {
 li,
 span,
 p {
-	cursor: url(../cursor/text.cur), auto;
+	cursor: url(https://cdn.jsdelivr.net/gh/Coolsong-max/cdn@master/cursor/text.cur), auto;
 }
 
 a {
 	background-color: transparent;
 	color: #1E2E5D;
-	cursor: url(../cursor/preg.cur), auto;
+	cursor: url(https://cdn.jsdelivr.net/gh/Coolsong-max/cdn@master/cursor/preg.cur), auto;
 	text-decoration: none;
 }
 
@@ -457,7 +457,7 @@ aside_content .card-info .author-info__description {
 }
 
 .snow.foreground {
-	background-image: url(../img/snow-large.png);
+	background-image: url(https://cdn.jsdelivr.net/gh/Coolsong-max/cdn@master/img/home_page/snow-large.png);
 	-webkit-animation-duration: 15s;
 	animation-duration: 15s;
 }
@@ -468,7 +468,7 @@ aside_content .card-info .author-info__description {
 }
 
 .snow.middleground {
-	background-image: url(../img/snowmg.png);
+	background-image: url(https://cdn.jsdelivr.net/gh/Coolsong-max/cdn@master/img/home_page/snowmg.png);
 	-webkit-animation-duration: 20s;
 	animation-duration: 20s;
 }
@@ -479,7 +479,7 @@ aside_content .card-info .author-info__description {
 }
 
 .snow.background {
-	background-image: url(../img/snowbg.png);
+	background-image: url(https://cdn.jsdelivr.net/gh/Coolsong-max/cdn@master/img/home_page/snowbg.png);
 	-webkit-animation-duration: 30s;
 	animation-duration: 30s;
 }
