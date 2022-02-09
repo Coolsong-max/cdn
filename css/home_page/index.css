@@ -14,12 +14,7 @@ html {
 
 }
 
-.iconfont {
-  font-family: "iconfont" !important;
-  font-style: normal;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+
 
 body {
 	position: relative;
