@@ -537,3 +537,160 @@ aside_content .card-info .author-info__description {
 		transform: translate3d(15%, 100%, 0);
 	}
 }
+
+/* 打赏 */
+
+.qrcode {
+  width: 50%;
+  height: 50%;
+  margin: 0 auto;
+  display: table-cell;
+}
+
+
+#alipay {
+  background: #255ef5;
+  border-color: #255ef5;
+}
+
+#wechatpay {
+  background: #1aad19;
+  border-color: #1aad19;
+}
+
+#ermb {
+  background: #ff0000;
+  border-color: #ff0000;
+}
+
+
+.paypal-wide {
+  width: 3em;
+}
+
+
+.wechat .alipay .tenpay {
+  display: none;
+}
+
+.modal-container {
+  max-width: 750px;
+}
+
+.modal {
+  align-items: center;
+  bottom: 0;
+  display: none;
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  left: 0;
+  opacity: 0;
+  overflow: hidden;
+  padding: .4rem;
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+
+.modal:target,
+.modal.active {
+  display: -ms-flexbox;
+  display: flex;
+  opacity: 1;
+  z-index: 400;
+}
+
+.modal:target .modal-overlay,
+.modal.active .modal-overlay {
+  background: rgba(247, 248, 249, .75);
+  bottom: 0;
+  cursor: default;
+  display: block;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.modal:target .modal-container,
+.modal.active .modal-container {
+  animation: slide-down .2s ease 1;
+  z-index: 1;
+}
+
+.modal.modal-sm .modal-container {
+  max-width: 320px;
+  padding: 0 .4rem;
+}
+
+.modal.modal-lg .modal-overlay {
+  background: #fff;
+}
+
+.modal.modal-lg .modal-container {
+  box-shadow: none;
+  max-width: 960px;
+}
+
+.modal-container {
+  background: #fff;
+  border-radius: .1rem;
+  box-shadow: 0 .2rem .5rem rgba(48, 55, 66, .3);
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  max-height: 75vh;
+  max-width: 640px;
+  padding: 0 .8rem;
+  width: 100%;
+}
+
+.modal-container.modal-fullheight {
+  max-height: 100vh;
+}
+
+.modal-container .modal-header {
+  color: #303742;
+  padding: .8rem;
+}
+
+.modal-container .modal-body {
+  overflow-y: auto;
+  padding: .8rem;
+  position: relative;
+}
+
+.modal-container .modal-footer {
+  padding: .8rem;
+  text-align: right;
+}
+
+.btn.btn-clear {
+  background: transparent;
+  border: 0;
+  color: currentColor;
+  height: 1rem;
+  line-height: .8rem;
+  margin-left: .2rem;
+  margin-right: -2px;
+  opacity: 1;
+  padding: .1rem;
+  text-decoration: none;
+  width: 1rem;
+}
+
+.btn.btn-clear:focus,
+.btn.btn-clear:hover {
+  background: rgba(247, 248, 249, .5);
+  opacity: .95;
+}
+
+.btn.btn-clear::before {
+  content: "\2715";
+}
+
+.float-right {
+  float: right !important;
+}
